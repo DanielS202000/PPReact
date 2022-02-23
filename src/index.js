@@ -7,4 +7,4 @@ const saludo = <h1>Hola Mundo</h1>;
 
 const divRoot = document.querySelector("#app");
 
-ReactDOM.render(<PrimeraApp />, divRoot);
+ReactDOM.render(<PrimeraApp saludo="Hola"/>, divRoot);
